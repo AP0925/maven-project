@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent workernode2
 
     stages {
         stage('Checkout') {
